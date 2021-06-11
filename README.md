@@ -49,8 +49,8 @@ https://www.youtube.com/watch?v=9C1Km6xfdMA
 
 #### Clone the Docker App
 
-- > git clone https://github.com/JiteshGaikwad/Rasa_Deployment
-- > cd Rasa_Deployment
+- > git clone https://github.com/SSCharan-99/rasa_pro
+- > cd rasa_pro
 
 #### Build the Docker app and run the services:
 
