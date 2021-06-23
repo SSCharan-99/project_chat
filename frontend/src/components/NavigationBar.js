@@ -6,11 +6,11 @@ const Styles = styled.div`
   .navbar { background-color: darkblue; }
   a, .navbar-nav, .navbar-light .nav-link {
     color: white;
-    text-size:20px;
+    text-size:25px;
     &:hover { color: white; }
   }
   .navbar-brand {
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: white;
     &:hover { color: white; }
   }
@@ -24,18 +24,14 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/">MSIT</Navbar.Brand>
-
+      <b><Navbar.Brand href="/">MSIT</Navbar.Brand></b>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-
           <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item> 
           <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/dashboard">MSIT Dashboard</Nav.Link></Nav.Item>
-
-
+          <Nav.Item><Nav.Link href="/dash">DashBoard</Nav.Link></Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

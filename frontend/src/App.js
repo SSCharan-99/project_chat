@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavigationBar } from './components/NavigationBar';
 import { Home } from './Home';
 import { About } from './About';
-import { Dashboard } from './Dashboard';
+import { Dash } from './Dash';
+import Footer from './footer'
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/dashboard" component={Dashboard} />
+          <Route path="/dash" component={Dash} />
         </Switch>
       </Router>
+      <Footer/>
     </React.Fragment>
   );
 }
