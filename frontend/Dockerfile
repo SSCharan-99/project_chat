@@ -7,12 +7,10 @@ RUN apt-get update && apt-get -y install curl gnupg && curl -sL https://deb.node
 WORKDIR /app/frontend
 COPY . /app/frontend
 
-<<<<<<< HEAD
-RUN npm install 
-=======
-RUN npm install
 
->>>>>>> e46818021bbad94ee9c5a80b2d31d6fe39f67f0e
+RUN npm install 
+
+
 
 VOLUME /app/frontend
 
