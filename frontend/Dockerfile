@@ -8,7 +8,7 @@ WORKDIR /app/frontend
 COPY . /app/frontend
 
 RUN npm install
-RUN npm ci
+
 
 VOLUME /app/frontend
 
